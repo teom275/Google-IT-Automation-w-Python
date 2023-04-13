@@ -7,15 +7,15 @@ You work for an online fruit store, and you need to develop a system that will u
 
 Given a bunch of images and descriptions of each of the new products, you’ll:
 
-Upload the new products to your online store. Images and descriptions should be uploaded separately, using two different web endpoints.
+ -Upload the new products to your online store. Images and descriptions should be uploaded separately, using two different web endpoints.
 
-Send a report back to the supplier, letting them know what you imported.
+ -Send a report back to the supplier, letting them know what you imported.
 
 Since this process is key to your business's success, you need to make sure that it keeps running! So, you’ll also:
 
-Run a script on your web server to monitor system health.
+ -Run a script on your web server to monitor system health.
 
-Send an email with an alert if the server is ever unhealthy.
+ -Send an email with an alert if the server is ever unhealthy.
 
 Hopefully this summary has helped you start thinking about how you’ll approach this task. In case you’re feeling a little scared, don't worry, you can definitely do this! You have all the necessary tools, and the lab description will go into a lot more detail of what you need to do.
 
@@ -32,19 +32,19 @@ Use version control. Check each part of your solution into version control as yo
 
 Review module documentation! You are going to need to use these modules to complete the final project. Reading the documentation takes time, but as you become more familiar with the APIs provided by these modules, it could save you from writing a bunch of custom code that could have just been a call to a module function! Remember, we’ve covered these modules in previous lessons too, so feel free to go back and review them if you need a refresher!
 
-Python Image Library (PIL) - Tutorial
+ -Python Image Library (PIL) - Tutorial https://pillow.readthedocs.io/
 
-Requests (HTTP client library) - Quickstart
+ -Requests (HTTP client library) - Quickstart https://requests.readthedocs.io/
 
-ReportLab (PDF creation library)
+ -ReportLab (PDF creation library) https://www.reportlab.com/docs/reportlab-userguide.pdf
 
-email (constructing email)
+ -email (constructing email) https://docs.python.org/3/library/email.examples.html
 
-psutil (processes and system utilization)
+ -psutil (processes and system utilization) https://psutil.readthedocs.io/
 
-shutil (file operations)
+ -shutil (file operations) https://docs.python.org/3/library/shutil.html
 
-smtplib (sending email)
+ -smtplib (sending email) https://docs.python.org/3/library/smtplib.html
 
 Automate updating catalog information
 Introduction
@@ -57,11 +57,12 @@ Once the task is complete, the supplier should be notified with an email that in
 Finally, in parallel to the automation running, we want to check the health of the system and send an email if something goes wrong. 
 
 What you’ll do
-Write a script that summarizes and processes sales data into different categories 
 
-Generate a PDF using Python
+ -Write a script that summarizes and processes sales data into different categories 
 
-Automatically send a PDF by email 
+ -Generate a PDF using Python
 
-Write a script to check the health status of the system 
+ -Automatically send a PDF by email 
+
+ -Write a script to check the health status of the system 
 
