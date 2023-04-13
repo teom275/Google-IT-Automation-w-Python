@@ -1,4 +1,4 @@
-# Online-Fruit-Store-Coursera
+# Google IT Automation w/ Python - Online Fruit Store Coursera
 
 Project Problem Statement
 Okay, here's the scenario:
